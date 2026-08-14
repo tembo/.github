@@ -5,16 +5,17 @@ repositories.
 
 ## Labels
 
-This repository's labels are the organization template. Copy them into another
-repository without changing existing labels:
+The Probot Settings app syncs the shared definitions in
+[`.github/settings.yml`](.github/settings.yml). Existing repositories opt in
+with their own `.github/settings.yml`:
 
-```sh
-gh label clone tembo/.github --repo tembo/REPOSITORY
+```yaml
+_extends: .github
 ```
 
-Add `--force` to update matching labels in the destination. GitHub does not
-automatically synchronize labels from this repository. [`labels.yml`](labels.yml)
-records the intended label definitions for review and future automation.
+Changes to an existing repository's settings file on its default branch trigger
+synchronization. Protect settings changes with CODEOWNERS because the app can
+modify repository administration settings.
 
 ## Shared automation
 
