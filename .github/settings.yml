@@ -1,4 +1,5 @@
 # These settings are synced by https://github.com/apps/settings.
+# Keep every shared label here: labels omitted from this list are deleted on sync.
 
 labels:
   - name: bug
@@ -28,6 +29,9 @@ labels:
   - name: question
     color: '#d876e3'
     description: Further information is requested
+  - name: tembo
+    color: '#ffffff'
+    description: Pull request created by Tembo
   - name: wontfix
     color: '#ffffff'
     description: This will not be worked on
