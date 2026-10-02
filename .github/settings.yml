@@ -2,36 +2,93 @@
 # Keep every shared label here: labels omitted from this list are deleted on sync.
 
 labels:
+  - name: agents
+    color: '#a4e0a3'
+    description: Changes matching the repository’s agents path rules.
+  - name: Automated PR
+    color: '#ededed'
+    description: Pull request created by repository automation
+  - name: backend
+    color: '#ddc3a6'
+    description: Changes matching the repository’s backend path rules.
+  - name: browser-extension
+    color: '#a5dfbb'
+    description: Changes matching the repository’s browser-extension path rules.
   - name: bug
     color: '#d73a4a'
     description: Something isn't working
+  - name: database
+    color: '#e69ea7'
+    description: Changes matching the repository’s database path rules.
   - name: dependencies
     color: '#0366d6'
     description: Pull requests that update a dependency file
+  - name: desktop
+    color: '#a6a3e0'
+    description: Changes matching the repository’s desktop path rules.
   - name: documentation
     color: '#0075ca'
     description: Improvements or additions to documentation
   - name: duplicate
     color: '#cfd3d7'
     description: This issue or pull request already exists
+  - name: enhancement
+    color: '#a2eeef'
+    description: New features or improvements
+  - name: frontend
+    color: '#a7ddcf'
+    description: Changes matching the repository’s frontend path rules.
+  - name: github_actions
+    color: '#b8e69e'
+    description: Changes matching the repository’s github_actions path rules.
+  - name: infrastructure
+    color: '#d6e0a4'
+    description: Changes matching the repository’s infrastructure path rules.
+  - name: integrations
+    color: '#a7bbdc'
+    description: Changes matching the repository’s integrations path rules.
   - name: invalid
     color: '#e4e669'
     description: This doesn't seem right
+  - name: javascript
+    color: '#168700'
+    description: Pull requests that update javascript code
+  - name: keep-open
+    color: '#0052cc'
+    description: Exempt this pull request from automatic stale closure
   - name: major
     color: '#b60205'
     description: Major version bump
   - name: minor
     color: '#fbca04'
     description: Minor version bump
+  - name: mobile
+    color: '#af9de7'
+    description: Changes matching the repository’s mobile path rules.
   - name: patch
     color: '#0e8a16'
     description: Patch version bump
   - name: question
     color: '#d876e3'
     description: Further information is requested
+  - name: shared
+    color: '#dda7c0'
+    description: Changes matching the repository’s shared path rules.
+  - name: stale
+    color: '#ededed'
+    description: Pull request marked inactive by the stale workflow
   - name: tembo
     color: '#ffffff'
     description: Pull request created by Tembo
+  - name: tooling
+    color: '#bbdda6'
+    description: Changes matching the repository’s tooling path rules.
+  - name: wip
+    color: '#fbca04'
+    description: Work in progress; exempt from automatic stale closure
   - name: wontfix
     color: '#ffffff'
     description: This will not be worked on
+  - name: work-in-progress
+    color: '#fbca04'
+    description: Work in progress; exempt from automatic stale closure
