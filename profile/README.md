@@ -69,18 +69,6 @@ Tembo is the automation layer for engineering teams. Hand off issues, bugs, and 
 
 <br>
 
-## 🛠️ Build with Tembo
-
-| Repository | Description |
-| --- | --- |
-| [**sdk**](https://github.com/tembo/sdk) | TypeScript SDK for the Tembo API (`npm install @tembo-io/sdk`) |
-| [**sdk-python**](https://github.com/tembo/sdk-python) | Python SDK for the Tembo API (`pip install tembo-sdk-python`) |
-| [**raycast**](https://github.com/tembo/raycast) | Delegate and track Tembo tasks from Raycast |
-| [**llm-agents.nix**](https://github.com/tembo/llm-agents.nix) | Nix packages for AI coding agents and dev tools, updated daily |
-| [**aifsd**](https://github.com/tembo/aifsd) | The AI-First Software Development Manifesto |
-
-<br>
-
 <div align="center">
 
 ### Ready to put agents to work?
