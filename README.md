@@ -1,40 +1,92 @@
-# Tembo GitHub configuration
+<div align="center">
 
-Shared GitHub configuration, workflows, templates, and labels for Tembo
-repositories.
+<a href="https://www.tembo.io/?utm_source=github&utm_medium=org-profile&utm_campaign=tembo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/assets/logo-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/assets/logo-dark.svg">
+    <img alt="Tembo" src="./profile/assets/logo-dark.svg" width="280">
+  </picture>
+</a>
 
-## Organization profile
+<h3>Run AI coding agents in complete, shareable software environments.</h3>
 
-[`profile/README.md`](profile/README.md) is the landing page shown on
-[github.com/tembo](https://github.com/tembo). Its images live in
-`profile/assets/`.
+<p>Turn issues, alerts, and ideas into reviewed pull requests — with Claude Code, Codex, Cursor, Amp, and more.</p>
 
-## Labels
+<br>
 
-The Probot Settings app syncs the shared definitions in
-[`.github/settings.yml`](.github/settings.yml). Existing repositories opt in
-with their own `.github/settings.yml`:
+<a href="https://www.tembo.io/?utm_source=github&utm_medium=org-profile&utm_campaign=tembo"><img alt="Get started at tembo.io" src="https://img.shields.io/badge/Get%20started%20at%20tembo.io%20%E2%86%92-118AF3?style=for-the-badge&logoColor=white"></a>
+&nbsp;
+<a href="https://docs.tembo.io"><img alt="Read the docs" src="https://img.shields.io/badge/Read%20the%20docs-0D0D12?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+&nbsp;
+<a href="https://www.tembo.io/enterprise?utm_source=github&utm_medium=org-profile&utm_campaign=tembo"><img alt="Talk to us" src="https://img.shields.io/badge/Enterprise-37394A?style=for-the-badge"></a>
 
-```yaml
-_extends: .github
-```
+<br><br>
 
-This file is the source of truth for label names, colors, and descriptions.
-Define every label used by repository automation here before using it: the
-Settings app deletes repository labels omitted from the effective catalog,
-including their assignments on issues and pull requests.
+<a href="https://www.tembo.io/?utm_source=github&utm_medium=org-profile&utm_campaign=tembo">
+  <img alt="The Tembo dashboard" src="./profile/assets/hero.png" width="820">
+</a>
 
-Label definitions do not assign labels to pull requests. The monorepo defines
-its path-based assignment rules in its own `.github/labeler.yml`; labels such
-as `tembo`, `Automated PR`, and `stale` are assigned by their existing automation.
+</div>
 
-Changes to an existing repository's settings file on its default branch trigger
-synchronization. Protect settings changes with CODEOWNERS because the app can
-modify repository administration settings.
+<br>
 
-## Shared automation
+## 👋 Welcome to Tembo
 
-- Put reusable workflows in `.github/workflows/`.
-- Put organization workflow templates in `workflow-templates/`.
-- Configure Actions access before consuming reusable workflows from other
-  repositories.
+Tembo is the automation layer for engineering teams. Hand off issues, bugs, and alerts, and Tembo agents work in full development environments to turn them into pull requests your team can review and merge.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Autonomous code changes</h4>
+      Hand off issues, bugs, and alerts. Tembo agents work across your repos and open pull requests ready for review.
+    </td>
+    <td width="50%" valign="top">
+      <h4>🖥️ Full environments, not just a chat</h4>
+      Every session gets a terminal, source code, and a live computer, so agents can run, test, and visually verify their work.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔗 Shareable previews</h4>
+      Spin up public preview links for frontends, APIs, and services so your whole team can review the real product.
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧩 Bring your agents & tools</h4>
+      Claude Code, Codex, Cursor, Amp, and more, with MCP tool access plus integrations for GitHub, GitLab, Linear, Jira, and Slack.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔒 Enterprise-ready</h4>
+      SSO, RBAC, SOC 2 Type I, and self-hosted / VPC deployment options.
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ Built for developers</h4>
+      A REST API and <a href="https://www.npmjs.com/package/@tembo-io/sdk">TypeScript SDK</a> let you trigger agents from anywhere.
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🛠️ Build with Tembo
+
+| Repository | Description |
+| --- | --- |
+| [**sdk**](https://github.com/tembo/sdk) | TypeScript SDK for the Tembo API (`npm install @tembo-io/sdk`) |
+| [**sdk-python**](https://github.com/tembo/sdk-python) | Python SDK for the Tembo API (`pip install tembo-sdk-python`) |
+| [**raycast**](https://github.com/tembo/raycast) | Delegate and track Tembo tasks from Raycast |
+| [**llm-agents.nix**](https://github.com/tembo/llm-agents.nix) | Nix packages for AI coding agents and dev tools, updated daily |
+| [**aifsd**](https://github.com/tembo/aifsd) | The AI-First Software Development Manifesto |
+
+<br>
+
+<div align="center">
+
+### Ready to put agents to work?
+
+<a href="https://www.tembo.io/?utm_source=github&utm_medium=org-profile&utm_campaign=tembo"><img alt="Try Tembo free" src="https://img.shields.io/badge/Try%20Tembo%20%E2%86%92-118AF3?style=for-the-badge&logoColor=white" height="42"></a>
+
+<sub><a href="https://www.tembo.io/?utm_source=github&utm_medium=org-profile&utm_campaign=tembo">Website</a> · <a href="https://docs.tembo.io">Docs</a> · <a href="https://docs.tembo.io/api">API</a> · <a href="https://www.tembo.io/developers?utm_source=github&utm_medium=org-profile&utm_campaign=tembo">Developers</a> · <a href="https://x.com/tembo">X</a> · <a href="https://www.linkedin.com/company/tembo-inc">LinkedIn</a></sub>
+
+</div>
