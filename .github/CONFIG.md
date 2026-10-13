@@ -28,4 +28,6 @@ settings files with CODEOWNERS.
 ## Organization profile
 
 [`profile/README.md`](../profile/README.md) is the landing page on
-[github.com/tembo](https://github.com/tembo). The root `README.md` mirrors it.
+[github.com/tembo](https://github.com/tembo). Edit that file, then run
+`scripts/sync-readme.sh` to regenerate the root `README.md`. The
+`README sync` workflow fails if the two drift apart.
