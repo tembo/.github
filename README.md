@@ -3,6 +3,12 @@
 Shared GitHub configuration, workflows, templates, and labels for Tembo
 repositories.
 
+## Organization profile
+
+[`profile/README.md`](profile/README.md) is the landing page shown on
+[github.com/tembo](https://github.com/tembo). Its images live in
+`profile/assets/`.
+
 ## Labels
 
 The Probot Settings app syncs the shared definitions in
